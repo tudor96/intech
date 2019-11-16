@@ -23,6 +23,7 @@
 #section1 {
     background-color: red; 
     background-image: linear-gradient(to right, #1c003b , #5216aa); 
+    width: 100%;
 }
 
 .logo-img{
@@ -31,6 +32,8 @@
 
 body {
     scrollbar-width: none;
+    width: 100vw;
+    position: absolute;
 }
 
 ::-webkit-scrollbar {
