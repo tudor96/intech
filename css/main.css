@@ -1,0 +1,96 @@
+.navbar-custom{
+
+    background-color: red; 
+    background-image: linear-gradient(to right, #15002d , #3e1181); 
+    height:10vh;
+    opacity: 0;
+}
+
+.logo-row{
+    height:10vh;
+
+}
+
+.content-row{
+    height:60vh;
+}
+
+
+.screen-section{
+    height:80vh;
+}
+
+#section1 {
+    background-color: red; 
+    background-image: linear-gradient(to right, #1c003b , #5216aa); 
+}
+
+.logo-img{
+
+}
+
+body {
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#header-image{
+    opacity: 0;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.quotes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+}
+
+.carousel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+}
+
+.h-quote{
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight:500;
+    padding-bottom: 30px;
+}
+
+.p-quote{
+    text-align: right;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: italic;
+}
+
+.name-quote {
+    text-align: right;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight:600;
+}
+
+.position-quote {
+    text-align: right;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight:100;  
+}
+
+
+.h-about {
+    padding-top: 50px;
+}
+@media screen and (max-width: 990px) {
+    .screen-section{
+        height:140vh;
+        
+        max-height: 1080px;
+    }
+}
